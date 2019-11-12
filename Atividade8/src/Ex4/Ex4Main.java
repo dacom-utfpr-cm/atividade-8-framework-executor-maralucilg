@@ -12,11 +12,11 @@ import java.util.concurrent.Executors;
  */
 public class Ex4Main {
     
-    // Executor
-    
+    public static void main(String[] args) {
     ExecutorService executor = Executors.newSingleThreadExecutor();
+    
     executor.submit(new BigBrother("/home/thanatos/Documentos/pasta"));
-     
 
+    }
     
 }
